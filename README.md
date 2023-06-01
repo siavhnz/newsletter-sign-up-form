@@ -30,13 +30,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![screenshot](./screenshot/screenshot.png)
 
 ### Links
 
-- Solution: [frontendmentor.io](https://www.frontendmentor.io/solutions/?)
+- Solution: [frontendmentor.io](https://www.frontendmentor.io/solutions/newsletter-signup-form-with-success-message-oEzg4zZvtB)
 
-- Live Site: [cloudflare](https://?.pages.dev)
+- Live Site: [cloudflare](https://newsletter-signup-form.pages.dev/)
 
 ## My process
 
