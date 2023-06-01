@@ -1,7 +1,7 @@
 import { Modal } from "@mui/material";
 import { ReactComponent as Success } from "../../assets/images/icon-success.svg";
 import styles from "./SuccessMessage.module.css";
-import Button from "../ui/button";
+import Button from "../ui/Button";
 
 const SuccessMessage = ({ isOpen, handleOpen, handleClose }) => {
 

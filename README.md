@@ -11,12 +11,8 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 - [My process](#my-process)
   - [Work time](#work-time)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
 
 ## Overview
 
@@ -46,18 +42,16 @@ Users should be able to:
 
 - Download assets, Install Vite, Initialize git, Prepare project, ...
 - Create components
+- Style components
+- Add email validity
 
 ### Work Time
 
-- [My Clockify Report](https://app.clockify.me/shared/?)
+- [My Clockify Report](https://app.clockify.me/shared/647888a0815c245a69f87519)
 
 ### Built with
 
-### What I learned
-
-### Continued development
-
-### Useful resources
+-React
 
 ## Author
 
