@@ -1,7 +1,7 @@
 import { ReactComponent as Success } from "../../assets/images/icon-success.svg";
 import SuccessMessage from "./SuccessMessage";
 import styles from "./NewsletterForm.module.css";
-import Button from "../ui/button";
+import Button from "../ui/Button";
 import { useRef, useState } from "react";
 
 const NewsletterFrom = () => {
