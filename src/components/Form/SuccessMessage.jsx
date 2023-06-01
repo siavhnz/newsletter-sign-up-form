@@ -1,21 +1,13 @@
 import { Modal } from "@mui/material";
 import { ReactComponent as Success } from "../../assets/images/icon-success.svg";
-import { useState } from "react";
 import styles from "./SuccessMessage.module.css";
 import Button from "../ui/button";
 
-const SuccessMessage = () => {
-    const [open, setOpen] = useState(false);
+const SuccessMessage = ({ isOpen, handleOpen, handleClose }) => {
 
-    const handleOpen = () => {
-        setOpen(true);
-    };
-
-    const handleClose = () => {
-        setOpen(false);
-    };
-
-    return <Modal open={true} onClose={handleClose}>
+    return <Modal componentsProps={{ backdrop: { style: { backgroundColor: "hsl(235, 18%, 26%)" } } }}
+        open={isOpen}
+        onClose={handleClose}>
         <div className={styles.box}>
             <div className={styles.icon}>
                 <Success aria-hidden={true} focusable={false} />
@@ -27,7 +19,7 @@ const SuccessMessage = () => {
                 A confirmation email has been sent to <a className={styles.link}>ash@loremcompany.com.</a> Please open it and click the button inside to confirm your subscription.
             </p>
             <div className={styles.submit}>
-                <Button onClose={handleClose}>Dismiss message</Button>
+                <Button onClick={handleClose}>Dismiss message</Button>
             </div>
         </div>
     </Modal>

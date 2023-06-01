@@ -6,3 +6,14 @@
     --color-grey: hsl(231, 7%, 60%);
     --color-white: hsl(0, 0%, 100%);
 }
+
+
+@media (min-width: 64em) {
+    body {
+        background-color: var(--color-charcoal-grey);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+}
