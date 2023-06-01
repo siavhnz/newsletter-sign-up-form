@@ -44,6 +44,9 @@ Users should be able to:
 
 ## My process
 
+- Download assets, Install Vite, Initialize git, Prepare project, ...
+- Create components
+
 ### Work Time
 
 - [My Clockify Report](https://app.clockify.me/shared/?)

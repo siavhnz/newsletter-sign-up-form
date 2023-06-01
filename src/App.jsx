@@ -1,7 +1,8 @@
+import NewsletterFrom from "./components/Form/NewsletterForm";
 
 function App() {
 
-  return <div>app</div>
+  return <NewsletterFrom />
 }
 
 export default App

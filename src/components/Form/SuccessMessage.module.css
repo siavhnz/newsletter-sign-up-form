@@ -1,0 +1,42 @@
+
+.box {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1.5rem;
+    padding: 2rem 1.5rem;
+    font-family: var(--font);
+    overflow-y: scroll;
+}
+
+.icon {
+    margin-top: 7.5rem;
+}
+
+.title {
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    color: var(--color-dark-slate-grey);
+}
+
+.desc {
+    color: var(--color-charcoal-grey);
+}
+
+.link {
+    color: var(--color-dark-slate-grey);
+    font-weight: 700;
+}
+
+.submit {
+    margin-top: auto;
+    margin-bottom: 2rem;
+}
